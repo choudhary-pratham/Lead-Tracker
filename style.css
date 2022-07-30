@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+    min-width: 500px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(3, 108, 3);
+    box-sizing: border-box;
+    margin-bottom: 4px;
+}
+
+button {
+    background-color: rgb(0, 128, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    width:150px;
+}
+
+button:hover {
+    background-color: rgb(47, 188, 47);
+    transition-duration: 0.4s;
+}
+
+button:active {
+    background-color: rgb(37, 176, 37);
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+li a {
+    color: rgb(37, 176, 37);
+}
